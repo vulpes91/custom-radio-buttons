@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio buttons</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <h1>Customized radio buttons</h1>
+    <div class="form-group">
+        <label>
+            <input class="real-radio" name="category" type="radio" value="first">
+            <span class="custom-radio"></span>
+            <h3>Option 1</h3>
+        </label>
+    </div>
+    <div class="form-group">
+        <label>
+            <input class="real-radio" name="category" type="radio" value="second">
+            <span class="custom-radio"></span>
+            <h3>Option 2</h3>
+        </label>
+    </div>
+
+</body>
+
+</html>
+
+<!-- атрибут name - одинаковый для двух кнопок, чтобы можно было выбрать только один вариант 
+так как силами css нельзя кастомизировать радиокнопки, создаётся дополнительная "фейковая" кнопка -->
